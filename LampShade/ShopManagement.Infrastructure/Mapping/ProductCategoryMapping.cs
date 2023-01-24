@@ -1,0 +1,28 @@
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
+using ShopManagement.Domain.DomainModels.ProductCategoryAggregates;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ShopManagement.Infrastructure.Mapping
+{
+    internal class ProductCategoryMapping : IEntityTypeConfiguration<ProductCategory>
+    {
+        public void Configure(EntityTypeBuilder<ProductCategory> builder)
+        {
+            builder.ToTable("ProductCategories");
+            builder.HasKey(h => h.ID);
+            builder.Property(p => p.Name).HasMaxLength(300).IsRequired();
+            builder.Property(p => p.Descripion).HasMaxLength(500);
+            builder.Property(p => p.Picture).HasMaxLength(1000);
+            builder.Property(p => p.PictureAlt).HasMaxLength(255);
+            builder.Property(p => p.PictureTitle).HasMaxLength(500);
+            builder.Property(p => p.Keywords).HasMaxLength(80).IsRequired();
+            builder.Property(p => p.MetaDescripion).HasMaxLength(150).IsRequired();
+            builder.Property(p => p.Slug).HasMaxLength(300).IsRequired();
+        }
+    }
+}

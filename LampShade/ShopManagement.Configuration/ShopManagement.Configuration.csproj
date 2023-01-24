@@ -2,7 +2,6 @@
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
-    <RootNamespace>_0_Framework</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
@@ -17,6 +16,13 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ShopManagement.Application\ShopManagement.Application.csproj" />
+    <ProjectReference Include="..\ShopManagement.Infrastructure\ShopManagement.Infrastructure.csproj" />
+    <ProjectReference Include="..\ShopManement.Application.Contracts\ShopManement.Application.Contracts.csproj" />
   </ItemGroup>
 
 </Project>

@@ -10,22 +10,14 @@ using System.Threading.Tasks;
 
 namespace ShopManagement.Infrastructure.Repository
 {
-    public class ProductCategoryRepository : IProductCategoryRepository
+    public class ProductCategoryRepository : _0_Framework.Infrastructure.Repository<long, ProductCategory>, IProductCategoryRepository
     {
         private readonly ShopDbContext _context;
 
-        public ProductCategoryRepository(ShopDbContext context)
+        public ProductCategoryRepository(ShopDbContext context) : base(context)
         {
             _context = context;
         }
-
-        public void Create(ProductCategory productCategory) => _context.Add(productCategory);
-
-        public bool Exists(Expression<Func<ProductCategory, bool>> expression) => _context.ProductCategories.Any(expression);
-
-        public ProductCategory Get(long id) => _context.ProductCategories.Find(id);
-
-        public List<ProductCategory> GetAll() => _context.ProductCategories.ToList();
 
         public EditeProductCategoryDto GetDetails(long id) => _context.ProductCategories.Select(s => new EditeProductCategoryDto()
         {
@@ -39,8 +31,6 @@ namespace ShopManagement.Infrastructure.Repository
             MetaDescripion = s.MetaDescripion,
             Slug = s.Slug
         }).FirstOrDefault(f => f.ID == id);
-
-        public void SaveChanges() => _context.SaveChanges();
 
         public List<ProductCategoryDto> Search(SearchProductCategoryDto searchProduct)
         {

@@ -38,11 +38,11 @@
             </div>
              <div class="col-md-6">
                 <div class="form-group">
-                    <label asp-for="UnitPrice" class="control-label">اسلاگ</label>
-                    <select type="text" class="form-control" asp-items = 'new SelectList(Model.Categories,"ID","Name")'>
+                    <label asp-for="CategoryID" class="control-label">اسلاگ</label>
+                    <select type="text" class="form-control" asp-for="CategoryID" asp-items = 'new SelectList(Model.Categories,"ID","Name")'>
                         <option value = 0>گروه محصول را انتخاب کنید</option>
                     </select>
-                    <span asp-validation-for="UnitPrice" class="error"></span>
+                    <span asp-validation-for="CategoryID" class="error"></span>
                 </div>
             </div>
         </div>

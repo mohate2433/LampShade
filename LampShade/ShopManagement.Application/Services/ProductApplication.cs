@@ -22,7 +22,6 @@ namespace ShopManagement.Application.Services
                 return opration.Failed(ApplicationMessages.DuplicatedMessage);
 
             var slug = createProductDto.Slug.Slugify();
-            var Categoryid = createProductDto.CategoryID;
             var product = new Product(
                 createProductDto.Name ,
                 createProductDto.Code,

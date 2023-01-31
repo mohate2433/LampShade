@@ -9,6 +9,9 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.Products
 {
     public class IndexModel : PageModel
     {
+        [TempData]
+        public string Message { get; set; }
+
         public SearechProductDto search;
         public List<ProductDto> productDtos;
         public SelectList ProductCategpries;
@@ -39,13 +42,16 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.Products
 
         public JsonResult OnPostCreate(CreateProductDto createProductDto)
         {
+
             var result = _productApplication.Create(createProductDto);
             return new JsonResult(result);
         }
 
         public IActionResult OnGetEdit(long id)
         {
+      
             var product = _productApplication.GetDetails(id);
+            product.Categories = _productCategoryApplication.GetProductCategories();
             return Partial("Edit", product);
         }
 
@@ -53,6 +59,23 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.Products
         {
             var result = _productApplication.Edit(editeProductDto);
             return new JsonResult(result);
+        }
+
+        public IActionResult OnGetNotInStock(long id)
+        {
+            var result =  _productApplication.NotInStock(id);
+            if (result.IsSuccedd)
+                return RedirectToPage("./Index");
+            Message = result.Message;
+            return RedirectToPage("./Index");
+        }
+        public IActionResult OnGetInStock(long id)
+        {
+            var result = _productApplication.IsStock(id);
+            if (result.IsSuccedd)
+                return RedirectToPage("./Index");
+            Message = result.Message;
+            return RedirectToPage("./Index");
         }
     }
 }

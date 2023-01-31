@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "9rT4iQ+DN3q5XXIxlwo0wZDGmcx5Utjo7a5cyTsAOoGwY/XNSR1+LS4tzyDmpDg7ZL1cBhj9cQ/kyEV0hjzwew==",
+  "dgSpecHash": "SU0uxaqXjC1x9Zvk/pDoxYMAtRuTSQbh3blkLbSzlz+FOWSYTMu78lHJz7gWsrneCXpTLyJpZvHpogqpxTY4dg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Mohammad\\Desktop\\LampShade-Git\\LampShade\\ServiceHost\\ServiceHost.csproj",
+  "projectFilePath": "C:\\Users\\Mohammad\\Desktop\\Git_LampShade\\LampShade\\ServiceHost\\ServiceHost.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Mohammad\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Mohammad\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",
     "C:\\Users\\Mohammad\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Mohammad\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
@@ -47,8 +48,10 @@
     "C:\\Users\\Mohammad\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.13\\microsoft.entityframeworkcore.6.0.13.nupkg.sha512",
     "C:\\Users\\Mohammad\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.13\\microsoft.entityframeworkcore.abstractions.6.0.13.nupkg.sha512",
     "C:\\Users\\Mohammad\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.13\\microsoft.entityframeworkcore.analyzers.6.0.13.nupkg.sha512",
+    "C:\\Users\\Mohammad\\.nuget\\packages\\microsoft.entityframeworkcore.design\\6.0.13\\microsoft.entityframeworkcore.design.6.0.13.nupkg.sha512",
     "C:\\Users\\Mohammad\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\6.0.13\\microsoft.entityframeworkcore.relational.6.0.13.nupkg.sha512",
     "C:\\Users\\Mohammad\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\6.0.13\\microsoft.entityframeworkcore.sqlserver.6.0.13.nupkg.sha512",
+    "C:\\Users\\Mohammad\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\6.0.13\\microsoft.entityframeworkcore.tools.6.0.13.nupkg.sha512",
     "C:\\Users\\Mohammad\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\6.0.0\\microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\Mohammad\\.nuget\\packages\\microsoft.extensions.caching.memory\\6.0.1\\microsoft.extensions.caching.memory.6.0.1.nupkg.sha512",
     "C:\\Users\\Mohammad\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",

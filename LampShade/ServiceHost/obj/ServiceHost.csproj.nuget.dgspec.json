@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mohammad\\Desktop\\LampShade-Git\\LampShade\\ServiceHost\\ServiceHost.csproj": {}
+    "C:\\Users\\Mohammad\\Desktop\\Git_LampShade\\LampShade\\ServiceHost\\ServiceHost.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mohammad\\Desktop\\LampShade-Git\\LampShade\\0_Framework\\0_Framework.csproj": {
+    "C:\\Users\\Mohammad\\Desktop\\Git_LampShade\\LampShade\\0_Framework\\0_Framework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mohammad\\Desktop\\LampShade-Git\\LampShade\\0_Framework\\0_Framework.csproj",
+        "projectUniqueName": "C:\\Users\\Mohammad\\Desktop\\Git_LampShade\\LampShade\\0_Framework\\0_Framework.csproj",
         "projectName": "0_Framework",
-        "projectPath": "C:\\Users\\Mohammad\\Desktop\\LampShade-Git\\LampShade\\0_Framework\\0_Framework.csproj",
+        "projectPath": "C:\\Users\\Mohammad\\Desktop\\Git_LampShade\\LampShade\\0_Framework\\0_Framework.csproj",
         "packagesPath": "C:\\Users\\Mohammad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mohammad\\Desktop\\LampShade-Git\\LampShade\\0_Framework\\obj\\",
+        "outputPath": "C:\\Users\\Mohammad\\Desktop\\Git_LampShade\\LampShade\\0_Framework\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -84,14 +84,14 @@
         }
       }
     },
-    "C:\\Users\\Mohammad\\Desktop\\LampShade-Git\\LampShade\\ServiceHost\\ServiceHost.csproj": {
+    "C:\\Users\\Mohammad\\Desktop\\Git_LampShade\\LampShade\\ServiceHost\\ServiceHost.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mohammad\\Desktop\\LampShade-Git\\LampShade\\ServiceHost\\ServiceHost.csproj",
+        "projectUniqueName": "C:\\Users\\Mohammad\\Desktop\\Git_LampShade\\LampShade\\ServiceHost\\ServiceHost.csproj",
         "projectName": "ServiceHost",
-        "projectPath": "C:\\Users\\Mohammad\\Desktop\\LampShade-Git\\LampShade\\ServiceHost\\ServiceHost.csproj",
+        "projectPath": "C:\\Users\\Mohammad\\Desktop\\Git_LampShade\\LampShade\\ServiceHost\\ServiceHost.csproj",
         "packagesPath": "C:\\Users\\Mohammad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mohammad\\Desktop\\LampShade-Git\\LampShade\\ServiceHost\\obj\\",
+        "outputPath": "C:\\Users\\Mohammad\\Desktop\\Git_LampShade\\LampShade\\ServiceHost\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -112,11 +112,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Mohammad\\Desktop\\LampShade-Git\\LampShade\\ShopManagement.Configuration\\ShopManagement.Configuration.csproj": {
-                "projectPath": "C:\\Users\\Mohammad\\Desktop\\LampShade-Git\\LampShade\\ShopManagement.Configuration\\ShopManagement.Configuration.csproj"
+              "C:\\Users\\Mohammad\\Desktop\\Git_LampShade\\LampShade\\ShopManagement.Configuration\\ShopManagement.Configuration.csproj": {
+                "projectPath": "C:\\Users\\Mohammad\\Desktop\\Git_LampShade\\LampShade\\ShopManagement.Configuration\\ShopManagement.Configuration.csproj"
               },
-              "C:\\Users\\Mohammad\\Desktop\\LampShade-Git\\LampShade\\ShopManement.Application.Contracts\\ShopManement.Application.Contracts.csproj": {
-                "projectPath": "C:\\Users\\Mohammad\\Desktop\\LampShade-Git\\LampShade\\ShopManement.Application.Contracts\\ShopManement.Application.Contracts.csproj"
+              "C:\\Users\\Mohammad\\Desktop\\Git_LampShade\\LampShade\\ShopManement.Application.Contracts\\ShopManement.Application.Contracts.csproj": {
+                "projectPath": "C:\\Users\\Mohammad\\Desktop\\Git_LampShade\\LampShade\\ShopManement.Application.Contracts\\ShopManement.Application.Contracts.csproj"
               }
             }
           }
@@ -130,6 +130,24 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.13, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -152,14 +170,14 @@
         }
       }
     },
-    "C:\\Users\\Mohammad\\Desktop\\LampShade-Git\\LampShade\\ShopManagement.Application\\ShopManagement.Application.csproj": {
+    "C:\\Users\\Mohammad\\Desktop\\Git_LampShade\\LampShade\\ShopManagement.Application\\ShopManagement.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mohammad\\Desktop\\LampShade-Git\\LampShade\\ShopManagement.Application\\ShopManagement.Application.csproj",
+        "projectUniqueName": "C:\\Users\\Mohammad\\Desktop\\Git_LampShade\\LampShade\\ShopManagement.Application\\ShopManagement.Application.csproj",
         "projectName": "ShopManagement.Application",
-        "projectPath": "C:\\Users\\Mohammad\\Desktop\\LampShade-Git\\LampShade\\ShopManagement.Application\\ShopManagement.Application.csproj",
+        "projectPath": "C:\\Users\\Mohammad\\Desktop\\Git_LampShade\\LampShade\\ShopManagement.Application\\ShopManagement.Application.csproj",
         "packagesPath": "C:\\Users\\Mohammad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mohammad\\Desktop\\LampShade-Git\\LampShade\\ShopManagement.Application\\obj\\",
+        "outputPath": "C:\\Users\\Mohammad\\Desktop\\Git_LampShade\\LampShade\\ShopManagement.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -180,11 +198,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Mohammad\\Desktop\\LampShade-Git\\LampShade\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
-                "projectPath": "C:\\Users\\Mohammad\\Desktop\\LampShade-Git\\LampShade\\ShopManagement.Domain\\ShopManagement.Domain.csproj"
+              "C:\\Users\\Mohammad\\Desktop\\Git_LampShade\\LampShade\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
+                "projectPath": "C:\\Users\\Mohammad\\Desktop\\Git_LampShade\\LampShade\\ShopManagement.Domain\\ShopManagement.Domain.csproj"
               },
-              "C:\\Users\\Mohammad\\Desktop\\LampShade-Git\\LampShade\\ShopManement.Application.Contracts\\ShopManement.Application.Contracts.csproj": {
-                "projectPath": "C:\\Users\\Mohammad\\Desktop\\LampShade-Git\\LampShade\\ShopManement.Application.Contracts\\ShopManement.Application.Contracts.csproj"
+              "C:\\Users\\Mohammad\\Desktop\\Git_LampShade\\LampShade\\ShopManement.Application.Contracts\\ShopManement.Application.Contracts.csproj": {
+                "projectPath": "C:\\Users\\Mohammad\\Desktop\\Git_LampShade\\LampShade\\ShopManement.Application.Contracts\\ShopManement.Application.Contracts.csproj"
               }
             }
           }
@@ -217,14 +235,14 @@
         }
       }
     },
-    "C:\\Users\\Mohammad\\Desktop\\LampShade-Git\\LampShade\\ShopManagement.Configuration\\ShopManagement.Configuration.csproj": {
+    "C:\\Users\\Mohammad\\Desktop\\Git_LampShade\\LampShade\\ShopManagement.Configuration\\ShopManagement.Configuration.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mohammad\\Desktop\\LampShade-Git\\LampShade\\ShopManagement.Configuration\\ShopManagement.Configuration.csproj",
+        "projectUniqueName": "C:\\Users\\Mohammad\\Desktop\\Git_LampShade\\LampShade\\ShopManagement.Configuration\\ShopManagement.Configuration.csproj",
         "projectName": "ShopManagement.Configuration",
-        "projectPath": "C:\\Users\\Mohammad\\Desktop\\LampShade-Git\\LampShade\\ShopManagement.Configuration\\ShopManagement.Configuration.csproj",
+        "projectPath": "C:\\Users\\Mohammad\\Desktop\\Git_LampShade\\LampShade\\ShopManagement.Configuration\\ShopManagement.Configuration.csproj",
         "packagesPath": "C:\\Users\\Mohammad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mohammad\\Desktop\\LampShade-Git\\LampShade\\ShopManagement.Configuration\\obj\\",
+        "outputPath": "C:\\Users\\Mohammad\\Desktop\\Git_LampShade\\LampShade\\ShopManagement.Configuration\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -245,14 +263,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Mohammad\\Desktop\\LampShade-Git\\LampShade\\ShopManagement.Application\\ShopManagement.Application.csproj": {
-                "projectPath": "C:\\Users\\Mohammad\\Desktop\\LampShade-Git\\LampShade\\ShopManagement.Application\\ShopManagement.Application.csproj"
+              "C:\\Users\\Mohammad\\Desktop\\Git_LampShade\\LampShade\\ShopManagement.Application\\ShopManagement.Application.csproj": {
+                "projectPath": "C:\\Users\\Mohammad\\Desktop\\Git_LampShade\\LampShade\\ShopManagement.Application\\ShopManagement.Application.csproj"
               },
-              "C:\\Users\\Mohammad\\Desktop\\LampShade-Git\\LampShade\\ShopManagement.Infrastructure\\ShopManagement.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\Mohammad\\Desktop\\LampShade-Git\\LampShade\\ShopManagement.Infrastructure\\ShopManagement.Infrastructure.csproj"
+              "C:\\Users\\Mohammad\\Desktop\\Git_LampShade\\LampShade\\ShopManagement.Infrastructure\\ShopManagement.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Mohammad\\Desktop\\Git_LampShade\\LampShade\\ShopManagement.Infrastructure\\ShopManagement.Infrastructure.csproj"
               },
-              "C:\\Users\\Mohammad\\Desktop\\LampShade-Git\\LampShade\\ShopManement.Application.Contracts\\ShopManement.Application.Contracts.csproj": {
-                "projectPath": "C:\\Users\\Mohammad\\Desktop\\LampShade-Git\\LampShade\\ShopManement.Application.Contracts\\ShopManement.Application.Contracts.csproj"
+              "C:\\Users\\Mohammad\\Desktop\\Git_LampShade\\LampShade\\ShopManement.Application.Contracts\\ShopManement.Application.Contracts.csproj": {
+                "projectPath": "C:\\Users\\Mohammad\\Desktop\\Git_LampShade\\LampShade\\ShopManement.Application.Contracts\\ShopManement.Application.Contracts.csproj"
               }
             }
           }
@@ -307,14 +325,14 @@
         }
       }
     },
-    "C:\\Users\\Mohammad\\Desktop\\LampShade-Git\\LampShade\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
+    "C:\\Users\\Mohammad\\Desktop\\Git_LampShade\\LampShade\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mohammad\\Desktop\\LampShade-Git\\LampShade\\ShopManagement.Domain\\ShopManagement.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Mohammad\\Desktop\\Git_LampShade\\LampShade\\ShopManagement.Domain\\ShopManagement.Domain.csproj",
         "projectName": "ShopManagement.Domain",
-        "projectPath": "C:\\Users\\Mohammad\\Desktop\\LampShade-Git\\LampShade\\ShopManagement.Domain\\ShopManagement.Domain.csproj",
+        "projectPath": "C:\\Users\\Mohammad\\Desktop\\Git_LampShade\\LampShade\\ShopManagement.Domain\\ShopManagement.Domain.csproj",
         "packagesPath": "C:\\Users\\Mohammad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mohammad\\Desktop\\LampShade-Git\\LampShade\\ShopManagement.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Mohammad\\Desktop\\Git_LampShade\\LampShade\\ShopManagement.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -335,11 +353,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Mohammad\\Desktop\\LampShade-Git\\LampShade\\0_Framework\\0_Framework.csproj": {
-                "projectPath": "C:\\Users\\Mohammad\\Desktop\\LampShade-Git\\LampShade\\0_Framework\\0_Framework.csproj"
+              "C:\\Users\\Mohammad\\Desktop\\Git_LampShade\\LampShade\\0_Framework\\0_Framework.csproj": {
+                "projectPath": "C:\\Users\\Mohammad\\Desktop\\Git_LampShade\\LampShade\\0_Framework\\0_Framework.csproj"
               },
-              "C:\\Users\\Mohammad\\Desktop\\LampShade-Git\\LampShade\\ShopManement.Application.Contracts\\ShopManement.Application.Contracts.csproj": {
-                "projectPath": "C:\\Users\\Mohammad\\Desktop\\LampShade-Git\\LampShade\\ShopManement.Application.Contracts\\ShopManement.Application.Contracts.csproj"
+              "C:\\Users\\Mohammad\\Desktop\\Git_LampShade\\LampShade\\ShopManement.Application.Contracts\\ShopManement.Application.Contracts.csproj": {
+                "projectPath": "C:\\Users\\Mohammad\\Desktop\\Git_LampShade\\LampShade\\ShopManement.Application.Contracts\\ShopManement.Application.Contracts.csproj"
               }
             }
           }
@@ -372,14 +390,14 @@
         }
       }
     },
-    "C:\\Users\\Mohammad\\Desktop\\LampShade-Git\\LampShade\\ShopManagement.Infrastructure\\ShopManagement.Infrastructure.csproj": {
+    "C:\\Users\\Mohammad\\Desktop\\Git_LampShade\\LampShade\\ShopManagement.Infrastructure\\ShopManagement.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mohammad\\Desktop\\LampShade-Git\\LampShade\\ShopManagement.Infrastructure\\ShopManagement.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Mohammad\\Desktop\\Git_LampShade\\LampShade\\ShopManagement.Infrastructure\\ShopManagement.Infrastructure.csproj",
         "projectName": "ShopManagement.Infrastructure",
-        "projectPath": "C:\\Users\\Mohammad\\Desktop\\LampShade-Git\\LampShade\\ShopManagement.Infrastructure\\ShopManagement.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\Mohammad\\Desktop\\Git_LampShade\\LampShade\\ShopManagement.Infrastructure\\ShopManagement.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Mohammad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mohammad\\Desktop\\LampShade-Git\\LampShade\\ShopManagement.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\Mohammad\\Desktop\\Git_LampShade\\LampShade\\ShopManagement.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -400,8 +418,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Mohammad\\Desktop\\LampShade-Git\\LampShade\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
-                "projectPath": "C:\\Users\\Mohammad\\Desktop\\LampShade-Git\\LampShade\\ShopManagement.Domain\\ShopManagement.Domain.csproj"
+              "C:\\Users\\Mohammad\\Desktop\\Git_LampShade\\LampShade\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
+                "projectPath": "C:\\Users\\Mohammad\\Desktop\\Git_LampShade\\LampShade\\ShopManagement.Domain\\ShopManagement.Domain.csproj"
               }
             }
           }
@@ -452,14 +470,14 @@
         }
       }
     },
-    "C:\\Users\\Mohammad\\Desktop\\LampShade-Git\\LampShade\\ShopManement.Application.Contracts\\ShopManement.Application.Contracts.csproj": {
+    "C:\\Users\\Mohammad\\Desktop\\Git_LampShade\\LampShade\\ShopManement.Application.Contracts\\ShopManement.Application.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mohammad\\Desktop\\LampShade-Git\\LampShade\\ShopManement.Application.Contracts\\ShopManement.Application.Contracts.csproj",
+        "projectUniqueName": "C:\\Users\\Mohammad\\Desktop\\Git_LampShade\\LampShade\\ShopManement.Application.Contracts\\ShopManement.Application.Contracts.csproj",
         "projectName": "ShopManement.Application.Contracts",
-        "projectPath": "C:\\Users\\Mohammad\\Desktop\\LampShade-Git\\LampShade\\ShopManement.Application.Contracts\\ShopManement.Application.Contracts.csproj",
+        "projectPath": "C:\\Users\\Mohammad\\Desktop\\Git_LampShade\\LampShade\\ShopManement.Application.Contracts\\ShopManement.Application.Contracts.csproj",
         "packagesPath": "C:\\Users\\Mohammad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mohammad\\Desktop\\LampShade-Git\\LampShade\\ShopManement.Application.Contracts\\obj\\",
+        "outputPath": "C:\\Users\\Mohammad\\Desktop\\Git_LampShade\\LampShade\\ShopManement.Application.Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -480,8 +498,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Mohammad\\Desktop\\LampShade-Git\\LampShade\\0_Framework\\0_Framework.csproj": {
-                "projectPath": "C:\\Users\\Mohammad\\Desktop\\LampShade-Git\\LampShade\\0_Framework\\0_Framework.csproj"
+              "C:\\Users\\Mohammad\\Desktop\\Git_LampShade\\LampShade\\0_Framework\\0_Framework.csproj": {
+                "projectPath": "C:\\Users\\Mohammad\\Desktop\\Git_LampShade\\LampShade\\0_Framework\\0_Framework.csproj"
               }
             }
           }

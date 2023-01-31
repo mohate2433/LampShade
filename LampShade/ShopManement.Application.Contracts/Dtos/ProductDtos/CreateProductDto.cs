@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ShopManement.Application.Contracts.Dtos.ProductCategoryDtos;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,5 +21,6 @@ namespace ShopManement.Application.Contracts.Dtos.ProductDtos
         public string? Keywords { get; set; }
         public string? MetaDescription { get; set; }
         public long CategoryID { get; set; }
+        public List<ProductCategoryDto>? Categories { get; set; }
     }
 }

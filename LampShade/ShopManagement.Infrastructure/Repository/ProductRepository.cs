@@ -48,7 +48,8 @@ namespace ShopManagement.Infrastructure.Repository
                 Name = x.Name,
                 Code = x.Code,
                 Picture = x.Picture,
-                UnitPrice =x.UnitPrice                
+                UnitPrice =x.UnitPrice,
+                CreationDate = x.CreationDate.ToString()                
             });
             if (!string.IsNullOrWhiteSpace(searech.Name))
                 query = query.Where(x=>x.Name == searech.Name);

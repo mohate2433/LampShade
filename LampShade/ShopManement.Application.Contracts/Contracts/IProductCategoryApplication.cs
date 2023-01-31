@@ -8,6 +8,7 @@ namespace ShopManement.Application.Contracts.Contracts
         OprationResult Create(CreateProductCategoryDto productCategoryDto);
         OprationResult Edite(EditeProductCategoryDto productCategoryDto);
         EditeProductCategoryDto GetDetails(long id);
+        List<ProductCategoryDto> GetProductCategories();
         List<ProductCategoryDto> Search(SearchProductCategoryDto productCategoryDto);
     }
 }

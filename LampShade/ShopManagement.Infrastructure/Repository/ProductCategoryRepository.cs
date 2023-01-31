@@ -1,12 +1,6 @@
 ﻿using ShopManagement.Domain.DomainModels.ProductCategoryAggregates;
 using ShopManagement.Domain.Services.Contracts;
 using ShopManement.Application.Contracts.Dtos.ProductCategoryDtos;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Linq.Expressions;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ShopManagement.Infrastructure.Repository
 {
@@ -31,6 +25,15 @@ namespace ShopManagement.Infrastructure.Repository
             MetaDescripion = s.MetaDescripion,
             Slug = s.Slug
         }).FirstOrDefault(f => f.ID == id);
+
+        public List<ProductCategoryDto> GetProductCategories()
+        {
+            return _context.ProductCategories.Select(x => new ProductCategoryDto
+            {
+                ID = x.ID,
+                Name = x.Name
+            }).ToList();
+        }
 
         public List<ProductCategoryDto> Search(SearchProductCategoryDto searchProduct)
         {

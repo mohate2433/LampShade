@@ -12,7 +12,8 @@ namespace ShopManagement.Domain.Services.Contracts
 {
     public interface IProductCategoryRepository : IRepository<long , ProductCategory>
     {
-        EditeProductCategoryDto GetDetails(long id);
+        List<ProductCategoryDto> GetProductCategories();
+       EditeProductCategoryDto GetDetails(long id);
         List<ProductCategoryDto> Search(SearchProductCategoryDto searchProduct);
     }
 }

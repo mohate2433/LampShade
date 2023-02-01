@@ -38,6 +38,15 @@ namespace ShopManagement.Infrastructure.Repository
             }).FirstOrDefault(X=>X.ID == id);
         }
 
+        public List<ProductDto> GetProducts()
+        {
+            return _context.Products.Select(x => new ProductDto
+            {
+                ID = x.ID,
+                Name = x.Name
+            }).ToList();
+        }
+
         public List<ProductDto> Search(SearechProductDto searech)
         {
             var query = _context.Products.Include(x => x.Category).Select(x => new ProductDto()
@@ -59,7 +68,7 @@ namespace ShopManagement.Infrastructure.Repository
             if (searech.CategoryID !=0)
                 query = query.Where(x => x.CategoryId == searech.CategoryID);
             return query.OrderByDescending(x=>x.ID).ToList();
-
         }
+
     }
 }

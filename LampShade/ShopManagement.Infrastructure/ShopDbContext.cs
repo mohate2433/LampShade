@@ -1,6 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using ShopManagement.Domain.DomainModels.ProductAggregate;
 using ShopManagement.Domain.DomainModels.ProductCategoryAggregates;
+using ShopManagement.Domain.DomainModels.ProductPictureAggregates;
+using ShopManagement.Domain.DomainModels.SlideAggregate;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,6 +19,8 @@ namespace ShopManagement.Infrastructure
 
         public DbSet<ProductCategory>? ProductCategories { get; set; }
         public DbSet<Product>? Products { get; set; }
+        public DbSet<ProductPicture>? ProductPictures { get; set; }
+        public DbSet<Slide>? Slides { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

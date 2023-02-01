@@ -76,6 +76,11 @@ namespace ShopManagement.Application.Services
             return _productRepository.GetDetails(id);
         }
 
+        public List<ProductDto> GetProducts()
+        {
+            return _productRepository.GetProducts();
+        }
+
         public OprationResult IsStock(long id)
         {
             var opration = new OprationResult();

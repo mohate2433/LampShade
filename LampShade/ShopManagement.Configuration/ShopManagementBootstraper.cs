@@ -16,9 +16,14 @@ namespace ShopManagement.Configuration
             services.AddTransient<IProductCategoryApplication, ProductCategoryApplication>();
             services.AddTransient<IProductCategoryRepository, ProductCategoryRepository>();
 
-
             services.AddTransient<IProductApplication, ProductApplication>();
             services.AddTransient<IProductRepository, ProductRepository>();
+
+            services.AddTransient<IProductPictureApplication, ProductPictureApplication>();
+            services.AddTransient<IProductPictureRepository, ProductPictureRepository>();
+
+            services.AddTransient<ISlideApplication, SlideApplication>();
+            services.AddTransient<ISlideRepository, SlideRepository>();
 
 
 

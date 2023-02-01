@@ -1,5 +1,6 @@
 ﻿using _0_Framework.Domain;
 using ShopManagement.Domain.DomainModels.ProductCategoryAggregates;
+using ShopManagement.Domain.DomainModels.ProductPictureAggregates;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -24,6 +25,7 @@ namespace ShopManagement.Domain.DomainModels.ProductAggregate
         public string? MetaDescription { get; private set; }
         public long CategoryID { get; private set; }
         public ProductCategory? Category { get; private set; }
+        public List<ProductPicture> ProductPictures { get; private set; }
 
         public Product(string? name, string? code, double unitPrice,
             string? shortDescription, string? description, string? picture,

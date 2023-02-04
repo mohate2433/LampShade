@@ -1603,6 +1603,14 @@
           "System.Xml.XPath": "4.3.0"
         }
       },
+      "01_LampShadeQuery/1.0.0": {
+        "dependencies": {
+          "ShopManagement.Infrastructure": "1.0.0"
+        },
+        "runtime": {
+          "01_LampShadeQuery.dll": {}
+        }
+      },
       "0_Framework/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.RazorPages": "2.2.5",
@@ -1623,6 +1631,7 @@
       },
       "ShopManagement.Configuration/1.0.0": {
         "dependencies": {
+          "01_LampShadeQuery": "1.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.13",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
           "ShopManagement.Application": "1.0.0",
@@ -2891,6 +2900,11 @@
       "sha512": "sha512-jw9oHHEIVW53mHY9PgrQa98Xo2IZ0ZjrpdOTmtvk+Rvg4tq7dydmxdNqUvJ5YwjDqhn75mBXWttWjiKhWP53LQ==",
       "path": "system.xml.xpath.xdocument/4.3.0",
       "hashPath": "system.xml.xpath.xdocument.4.3.0.nupkg.sha512"
+    },
+    "01_LampShadeQuery/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "0_Framework/1.0.0": {
       "type": "project",

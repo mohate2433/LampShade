@@ -7,6 +7,7 @@
         public string? Heading { get; set; }
         public string? Title { get; set; }
         public string? CreationDate { get; set; }
+        public string? Link { get; set; }
         public bool IsRemoved { get; set; }
 
     }

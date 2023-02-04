@@ -48,3 +48,5 @@ C:\Users\Mohammad\Desktop\Git_LampShade\LampShade\ShopManagement.Configuration\o
 C:\Users\Mohammad\Desktop\Git_LampShade\LampShade\ShopManagement.Configuration\obj\Debug\net6.0\ShopManagement.Configuration.pdb
 C:\Users\Mohammad\Desktop\Git_LampShade\LampShade\ShopManagement.Configuration\obj\Debug\net6.0\ShopManagement.Configuration.genruntimeconfig.cache
 C:\Users\Mohammad\Desktop\Git_LampShade\LampShade\ShopManagement.Configuration\obj\Debug\net6.0\ref\ShopManagement.Configuration.dll
+C:\Users\Mohammad\Desktop\Git_LampShade\LampShade\ShopManagement.Configuration\bin\Debug\net6.0\01_LampShadeQuery.dll
+C:\Users\Mohammad\Desktop\Git_LampShade\LampShade\ShopManagement.Configuration\bin\Debug\net6.0\01_LampShadeQuery.pdb

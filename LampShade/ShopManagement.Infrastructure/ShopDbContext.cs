@@ -3,6 +3,7 @@ using ShopManagement.Domain.DomainModels.ProductAggregate;
 using ShopManagement.Domain.DomainModels.ProductCategoryAggregates;
 using ShopManagement.Domain.DomainModels.ProductPictureAggregates;
 using ShopManagement.Domain.DomainModels.SlideAggregate;
+using ShopManagement.Infrastructure.Mapping;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -24,7 +25,7 @@ namespace ShopManagement.Infrastructure
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            var assembly = typeof(ProductCategory).Assembly;
+            var assembly = typeof(ProductCategoryMapping).Assembly;
             modelBuilder.ApplyConfigurationsFromAssembly(assembly);
 
             

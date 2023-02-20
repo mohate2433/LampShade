@@ -1,4 +1,4 @@
-﻿using _0_Framework.Application;
+﻿    using _0_Framework.Application;
 using ShopManagement.Domain.Contracts;
 using ShopManagement.Domain.DomainModels.ProductAggregate;
 using ShopManement.Application.Contracts.Contracts;

@@ -1,9 +1,13 @@
+using DiscountManagement.Configuration;
+using InventoryManagement.Configuration;
 using Microsoft.EntityFrameworkCore;
 using ShopManagement.Configuration;
 
 var builder = WebApplication.CreateBuilder(args);
 var connectionString = builder.Configuration.GetConnectionString("lampShade");
 ShopManagementBootstraper.Configure(builder.Services, connectionString);
+DiscountManagementBootstraper.Configure(builder.Services, connectionString);
+InventoryManagementBooststraper.Configure(builder.Services, connectionString);
 // Add services to the container.
 builder.Services.AddRazorPages();
 

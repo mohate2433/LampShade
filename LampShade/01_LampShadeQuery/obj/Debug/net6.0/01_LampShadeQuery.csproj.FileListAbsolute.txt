@@ -1,8 +1,3 @@
-C:\Users\Mohammad\Desktop\Git_LampShade\LampShade\01_LampShadeQuery\obj\Debug\net6.0\01_LampShadeQuery.csproj.AssemblyReference.cache
-C:\Users\Mohammad\Desktop\Git_LampShade\LampShade\01_LampShadeQuery\obj\Debug\net6.0\01_LampShadeQuery.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Mohammad\Desktop\Git_LampShade\LampShade\01_LampShadeQuery\obj\Debug\net6.0\01_LampShadeQuery.AssemblyInfoInputs.cache
-C:\Users\Mohammad\Desktop\Git_LampShade\LampShade\01_LampShadeQuery\obj\Debug\net6.0\01_LampShadeQuery.AssemblyInfo.cs
-C:\Users\Mohammad\Desktop\Git_LampShade\LampShade\01_LampShadeQuery\obj\Debug\net6.0\01_LampShadeQuery.csproj.CoreCompileInputs.cache
 C:\Users\Mohammad\Desktop\Git_LampShade\LampShade\01_LampShadeQuery\bin\Debug\net6.0\01_LampShadeQuery.deps.json
 C:\Users\Mohammad\Desktop\Git_LampShade\LampShade\01_LampShadeQuery\bin\Debug\net6.0\01_LampShadeQuery.dll
 C:\Users\Mohammad\Desktop\Git_LampShade\LampShade\01_LampShadeQuery\bin\Debug\net6.0\01_LampShadeQuery.pdb
@@ -14,6 +9,11 @@ C:\Users\Mohammad\Desktop\Git_LampShade\LampShade\01_LampShadeQuery\bin\Debug\ne
 C:\Users\Mohammad\Desktop\Git_LampShade\LampShade\01_LampShadeQuery\bin\Debug\net6.0\0_Framework.pdb
 C:\Users\Mohammad\Desktop\Git_LampShade\LampShade\01_LampShadeQuery\bin\Debug\net6.0\ShopManagement.Domain.pdb
 C:\Users\Mohammad\Desktop\Git_LampShade\LampShade\01_LampShadeQuery\bin\Debug\net6.0\ShopManement.Application.Contracts.pdb
+C:\Users\Mohammad\Desktop\Git_LampShade\LampShade\01_LampShadeQuery\obj\Debug\net6.0\01_LampShadeQuery.csproj.AssemblyReference.cache
+C:\Users\Mohammad\Desktop\Git_LampShade\LampShade\01_LampShadeQuery\obj\Debug\net6.0\01_LampShadeQuery.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mohammad\Desktop\Git_LampShade\LampShade\01_LampShadeQuery\obj\Debug\net6.0\01_LampShadeQuery.AssemblyInfoInputs.cache
+C:\Users\Mohammad\Desktop\Git_LampShade\LampShade\01_LampShadeQuery\obj\Debug\net6.0\01_LampShadeQuery.AssemblyInfo.cs
+C:\Users\Mohammad\Desktop\Git_LampShade\LampShade\01_LampShadeQuery\obj\Debug\net6.0\01_LampShadeQuery.csproj.CoreCompileInputs.cache
 C:\Users\Mohammad\Desktop\Git_LampShade\LampShade\01_LampShadeQuery\obj\Debug\net6.0\01_LampShadeQuery.csproj.CopyComplete
 C:\Users\Mohammad\Desktop\Git_LampShade\LampShade\01_LampShadeQuery\obj\Debug\net6.0\01_LampShadeQuery.dll
 C:\Users\Mohammad\Desktop\Git_LampShade\LampShade\01_LampShadeQuery\obj\Debug\net6.0\refint\01_LampShadeQuery.dll

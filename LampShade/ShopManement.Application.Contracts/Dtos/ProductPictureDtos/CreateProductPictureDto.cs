@@ -11,7 +11,7 @@ namespace ShopManement.Application.Contracts.Dtos.ProductPictureDtos
 {
     public class CreateProductPictureDto
     {
-        public List<ProductDto> products;
+        public List<ProductDto>? products;
 
         [Range(1, 1000000, ErrorMessage = ValidationMessage.IsRequired)]
         public long ProductID { get; set; }

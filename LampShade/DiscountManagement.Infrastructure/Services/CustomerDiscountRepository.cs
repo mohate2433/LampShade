@@ -3,13 +3,7 @@ using _0_Framework.Infrastructure;
 using DiscountManagement.Application.Contract.Dtos.CustomerDiscounts;
 using DiscountManagement.Domain.Contract;
 using DiscountManagement.Domain.CustomerDiscountAggregate;
-using Microsoft.EntityFrameworkCore;
 using ShopManagement.Infrastructure;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DiscountManagement.Infrastructure.Services
 {

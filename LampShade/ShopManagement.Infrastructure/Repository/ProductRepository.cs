@@ -3,11 +3,6 @@ using Microsoft.EntityFrameworkCore;
 using ShopManagement.Domain.Contracts;
 using ShopManagement.Domain.DomainModels.ProductAggregate;
 using ShopManement.Application.Contracts.Dtos.ProductDtos;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ShopManagement.Infrastructure.Repository
 {
@@ -24,7 +19,6 @@ namespace ShopManagement.Infrastructure.Repository
                 ID = x.ID,
                 Name = x.Name,
                 Code = x.Code,
-                UnitPrice =x.UnitPrice,
                 ShortDescription = x.ShortDescription,
                 Description = x.Description,
                 Picture = x.Picture,
@@ -57,8 +51,6 @@ namespace ShopManagement.Infrastructure.Repository
                 Name = x.Name,
                 Code = x.Code,
                 Picture = x.Picture,
-                UnitPrice =x.UnitPrice,
-                IsInStock = x.IsInStock,
                 CreationDate = x.CreationDate.ToString()                
             });
             if (!string.IsNullOrWhiteSpace(searech.Name))

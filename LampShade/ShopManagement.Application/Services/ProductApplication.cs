@@ -25,7 +25,6 @@ namespace ShopManagement.Application.Services
             var product = new Product(
                 createProductDto.Name ,
                 createProductDto.Code,
-                createProductDto.UnitPrice,
                 createProductDto.ShortDescription,
                 createProductDto.Description,
                 createProductDto.Picture,
@@ -56,7 +55,6 @@ namespace ShopManagement.Application.Services
             (
                 editProductDto.Name,
                 editProductDto.Code,
-                editProductDto.UnitPrice,
                 editProductDto.ShortDescription,
                 editProductDto.Description,
                 editProductDto.Picture,
@@ -80,37 +78,6 @@ namespace ShopManagement.Application.Services
         {
             return _productRepository.GetProducts();
         }
-
-        public OprationResult IsStock(long id)
-        {
-            var opration = new OprationResult();
-            var product = _productRepository.Get(id);
-            if (product == null)
-                return opration.Failed(ApplicationMessages.NotFoundMessage);
-            if (product.IsInStock==true)
-                return opration.Succedded();
-
-            product.InStock();
-
-            _productRepository.SaveChanges();
-            return opration.Succedded();
-        }
-
-        public OprationResult NotInStock(long id)
-        {
-            var opration = new OprationResult();
-            var product = _productRepository.Get(id);
-            if (product == null)
-                return opration.Failed(ApplicationMessages.NotFoundMessage);
-            if (product.IsInStock == false)
-                return opration.Succedded();
-
-            product.NotInstock();
-
-            _productRepository.SaveChanges();
-            return opration.Succedded();
-        }
-
         public List<ProductDto> Search(SearechProductDto searech)
         {
             return _productRepository.Search(searech);

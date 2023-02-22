@@ -3,11 +3,6 @@ using ShopManagement.Domain.DomainModels.ProductCategoryAggregates;
 using ShopManagement.Domain.Services.Contracts;
 using ShopManement.Application.Contracts.Contracts;
 using ShopManement.Application.Contracts.Dtos.ProductCategoryDtos;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ShopManagement.Application.Services
 {

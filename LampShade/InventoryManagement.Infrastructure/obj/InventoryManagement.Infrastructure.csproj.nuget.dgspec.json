@@ -117,6 +117,9 @@
             "projectReferences": {
               "C:\\Users\\Mohammad\\Desktop\\Git_LampShade\\LampShade\\0_Framework\\0_Framework.csproj": {
                 "projectPath": "C:\\Users\\Mohammad\\Desktop\\Git_LampShade\\LampShade\\0_Framework\\0_Framework.csproj"
+              },
+              "C:\\Users\\Mohammad\\Desktop\\Git_LampShade\\LampShade\\ShopManement.Application.Contracts\\ShopManement.Application.Contracts.csproj": {
+                "projectPath": "C:\\Users\\Mohammad\\Desktop\\Git_LampShade\\LampShade\\ShopManement.Application.Contracts\\ShopManement.Application.Contracts.csproj"
               }
             }
           }

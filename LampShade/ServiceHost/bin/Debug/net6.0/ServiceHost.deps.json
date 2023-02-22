@@ -1671,9 +1671,19 @@
           "DiscountManagement.Infrastructure.dll": {}
         }
       },
+      "InventoryManagement.Application/1.0.0": {
+        "dependencies": {
+          "InventoryManagement.Application.Contracts": "1.0.0",
+          "InventoryManagement.Domain": "1.0.0"
+        },
+        "runtime": {
+          "InventoryManagement.Application.dll": {}
+        }
+      },
       "InventoryManagement.Application.Contracts/1.0.0": {
         "dependencies": {
-          "0_Framework": "1.0.0"
+          "0_Framework": "1.0.0",
+          "ShopManement.Application.Contracts": "1.0.0"
         },
         "runtime": {
           "InventoryManagement.Application.Contracts.dll": {}
@@ -1681,6 +1691,7 @@
       },
       "InventoryManagement.Configuration/1.0.0": {
         "dependencies": {
+          "InventoryManagement.Application": "1.0.0",
           "InventoryManagement.Infrastructure": "1.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.13",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
@@ -3020,6 +3031,11 @@
       "sha512": ""
     },
     "DiscountManagement.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "InventoryManagement.Application/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

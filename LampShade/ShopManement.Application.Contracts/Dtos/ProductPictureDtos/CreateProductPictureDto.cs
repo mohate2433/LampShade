@@ -1,11 +1,6 @@
 ﻿using _0_Framework.Application;
 using ShopManement.Application.Contracts.Dtos.ProductDtos;
-using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ShopManement.Application.Contracts.Dtos.ProductPictureDtos
 {

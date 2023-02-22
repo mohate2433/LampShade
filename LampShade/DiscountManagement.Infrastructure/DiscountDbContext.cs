@@ -6,6 +6,7 @@ using ShopManagement.Domain.DomainModels.ProductCategoryAggregates;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+
 using System.Text;
 using System.Threading.Tasks;
 
@@ -13,7 +14,7 @@ namespace DiscountManagement.Infrastructure
 {
     public class DiscountDbContext : DbContext
     {
-        public DiscountDbContext(DbContextOptions options) : base(options)
+        public DiscountDbContext(DbContextOptions<DiscountDbContext> options) : base(options)
         {
         }
 

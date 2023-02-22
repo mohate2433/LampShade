@@ -27,3 +27,5 @@ C:\Users\Mohammad\Desktop\Git_LampShade\LampShade\InventoryManagement.Configurat
 C:\Users\Mohammad\Desktop\Git_LampShade\LampShade\InventoryManagement.Configuration\obj\Debug\net6.0\InventoryManagement.Configuration.pdb
 C:\Users\Mohammad\Desktop\Git_LampShade\LampShade\InventoryManagement.Configuration\obj\Debug\net6.0\InventoryManagement.Configuration.genruntimeconfig.cache
 C:\Users\Mohammad\Desktop\Git_LampShade\LampShade\InventoryManagement.Configuration\obj\Debug\net6.0\ref\InventoryManagement.Configuration.dll
+C:\Users\Mohammad\Desktop\Git_LampShade\LampShade\InventoryManagement.Configuration\bin\Debug\net6.0\InventoryManagement.Application.dll
+C:\Users\Mohammad\Desktop\Git_LampShade\LampShade\InventoryManagement.Configuration\bin\Debug\net6.0\InventoryManagement.Application.pdb

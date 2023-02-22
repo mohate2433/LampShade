@@ -9,5 +9,6 @@ namespace InventoryManagement.Domain.Contracts
         Inventory GetInventory(long id);
         EditInventory GetDetails(long id);
         List<InventoryDto> Search(SearchInventory search);
+        List<InventoryOprationDto> GetInventoryOprations(long InventoryId);
     }
 }

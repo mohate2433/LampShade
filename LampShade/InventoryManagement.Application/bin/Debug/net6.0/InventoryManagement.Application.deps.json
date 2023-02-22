@@ -1877,7 +1877,8 @@
       },
       "InventoryManagement.Application.Contracts/1.0.0": {
         "dependencies": {
-          "0_Framework": "1.0.0"
+          "0_Framework": "1.0.0",
+          "ShopManement.Application.Contracts": "1.0.0"
         },
         "runtime": {
           "InventoryManagement.Application.Contracts.dll": {}
@@ -1890,6 +1891,14 @@
         },
         "runtime": {
           "InventoryManagement.Domain.dll": {}
+        }
+      },
+      "ShopManement.Application.Contracts/1.0.0": {
+        "dependencies": {
+          "0_Framework": "1.0.0"
+        },
+        "runtime": {
+          "ShopManement.Application.Contracts.dll": {}
         }
       }
     }
@@ -3115,6 +3124,11 @@
       "sha512": ""
     },
     "InventoryManagement.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ShopManement.Application.Contracts/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

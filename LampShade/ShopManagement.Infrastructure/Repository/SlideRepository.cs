@@ -2,11 +2,6 @@
 using ShopManagement.Domain.Contracts;
 using ShopManagement.Domain.DomainModels.SlideAggregate;
 using ShopManement.Application.Contracts.Dtos.SlideDtos;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ShopManagement.Infrastructure.Repository
 {

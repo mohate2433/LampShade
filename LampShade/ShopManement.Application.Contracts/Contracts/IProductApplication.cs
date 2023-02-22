@@ -15,7 +15,5 @@ namespace ShopManement.Application.Contracts.Contracts
         EditProductDto GetDetails(long id);
         List<ProductDto> GetProducts();
         List<ProductDto> Search(SearechProductDto searech);
-        public OprationResult IsStock(long id);
-        public OprationResult NotInStock(long id);
     }
 }

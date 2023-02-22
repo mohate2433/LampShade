@@ -4,7 +4,6 @@ using DiscountManagement.Application.Contract.Dtos.ColleagueDiscounts;
 using DiscountManagement.Domain.ColleagueDiscountAggregate;
 using DiscountManagement.Domain.Contract;
 using ShopManagement.Infrastructure;
-using ShopManement.Application.Contracts.Dtos.ProductDtos;
 
 namespace DiscountManagement.Infrastructure.Services
 {

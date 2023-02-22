@@ -3,12 +3,6 @@ using DiscountManagement.Application.Contract.Contract;
 using DiscountManagement.Application.Contract.Dtos.ColleagueDiscounts;
 using DiscountManagement.Domain.ColleagueDiscountAggregate;
 using DiscountManagement.Domain.Contract;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reflection.Metadata.Ecma335;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DiscountManagement.Application.Services
 {

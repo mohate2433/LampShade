@@ -191,3 +191,5 @@ C:\Users\Mohammad\Desktop\Git_LampShade\LampShade\ServiceHost\bin\Debug\net6.0\I
 C:\Users\Mohammad\Desktop\Git_LampShade\LampShade\ServiceHost\bin\Debug\net6.0\InventoryManagement.Application.Contracts.pdb
 C:\Users\Mohammad\Desktop\Git_LampShade\LampShade\ServiceHost\bin\Debug\net6.0\InventoryManagement.Domain.pdb
 C:\Users\Mohammad\Desktop\Git_LampShade\LampShade\ServiceHost\bin\Debug\net6.0\InventoryManagement.Infrastructure.pdb
+C:\Users\Mohammad\Desktop\Git_LampShade\LampShade\ServiceHost\bin\Debug\net6.0\InventoryManagement.Application.dll
+C:\Users\Mohammad\Desktop\Git_LampShade\LampShade\ServiceHost\bin\Debug\net6.0\InventoryManagement.Application.pdb

@@ -4,11 +4,6 @@ using ShopManagement.Domain.DomainModels.ProductCategoryAggregates;
 using ShopManagement.Domain.DomainModels.ProductPictureAggregates;
 using ShopManagement.Domain.DomainModels.SlideAggregate;
 using ShopManagement.Infrastructure.Mapping;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ShopManagement.Infrastructure
 {

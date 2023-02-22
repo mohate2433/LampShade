@@ -3094,6 +3094,19 @@
         "runtime": {
           "bin/placeholder/0_Framework.dll": {}
         }
+      },
+      "ShopManement.Application.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "0_Framework": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ShopManement.Application.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ShopManement.Application.Contracts.dll": {}
+        }
       }
     }
   },
@@ -8734,11 +8747,17 @@
       "type": "project",
       "path": "../0_Framework/0_Framework.csproj",
       "msbuildProject": "../0_Framework/0_Framework.csproj"
+    },
+    "ShopManement.Application.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../ShopManement.Application.Contracts/ShopManement.Application.Contracts.csproj",
+      "msbuildProject": "../ShopManement.Application.Contracts/ShopManement.Application.Contracts.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "0_Framework >= 1.0.0"
+      "0_Framework >= 1.0.0",
+      "ShopManement.Application.Contracts >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -8776,6 +8795,9 @@
           "projectReferences": {
             "C:\\Users\\Mohammad\\Desktop\\Git_LampShade\\LampShade\\0_Framework\\0_Framework.csproj": {
               "projectPath": "C:\\Users\\Mohammad\\Desktop\\Git_LampShade\\LampShade\\0_Framework\\0_Framework.csproj"
+            },
+            "C:\\Users\\Mohammad\\Desktop\\Git_LampShade\\LampShade\\ShopManement.Application.Contracts\\ShopManement.Application.Contracts.csproj": {
+              "projectPath": "C:\\Users\\Mohammad\\Desktop\\Git_LampShade\\LampShade\\ShopManement.Application.Contracts\\ShopManement.Application.Contracts.csproj"
             }
           }
         }

@@ -15,3 +15,5 @@ C:\Users\Mohammad\Desktop\Git_LampShade\LampShade\InventoryManagement.Domain\obj
 C:\Users\Mohammad\Desktop\Git_LampShade\LampShade\InventoryManagement.Domain\obj\Debug\net6.0\refint\InventoryManagement.Domain.dll
 C:\Users\Mohammad\Desktop\Git_LampShade\LampShade\InventoryManagement.Domain\obj\Debug\net6.0\InventoryManagement.Domain.pdb
 C:\Users\Mohammad\Desktop\Git_LampShade\LampShade\InventoryManagement.Domain\obj\Debug\net6.0\ref\InventoryManagement.Domain.dll
+C:\Users\Mohammad\Desktop\Git_LampShade\LampShade\InventoryManagement.Domain\bin\Debug\net6.0\ShopManement.Application.Contracts.dll
+C:\Users\Mohammad\Desktop\Git_LampShade\LampShade\InventoryManagement.Domain\bin\Debug\net6.0\ShopManement.Application.Contracts.pdb

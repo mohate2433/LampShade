@@ -1,4 +1,5 @@
-﻿using _0_Framework.Infrastructure;
+﻿using _0_Framework.Application;
+using _0_Framework.Infrastructure;
 using InventoryManagement.Application.Contracts.Dtos.InventoryDtos;
 using InventoryManagement.Domain.Contracts;
 using InventoryManagement.Domain.InventoryAggregate;
@@ -33,20 +34,37 @@ namespace InventoryManagement.Infrastructure.Services
                 Id =x.ID,
                 ProductId = x.ProductId,
                 UnitPrice = x.UnitPrice,
+                InStock = x.InStock,
                 CurrentCount = x.CalculateCurrentCount()
             });
             if (search.ProductId > 0)
                 query = query.Where(x => x.ProductId == search.ProductId);
-            if (!search.InStock)
+            if (search.InStock)
                 query = query.Where(x => !x.InStock);
+            if (!search.InStock)
+                query = query.Where(x => x.InStock);
+            var inventory = query.OrderByDescending(x => x.Id).ToList();
+            inventory.ForEach(item =>
+                item.Product = products.FirstOrDefault(x => x.ID == item.ProductId)?.Name);
+            return inventory;
 
-            var Inventory = query.OrderByDescending(x => x.Id).ToList();
-            Inventory.ForEach(item =>
+        }
+
+        public List<InventoryOprationDto> GetInventoryOprations(long InventoryId)
+        {
+            var inventory = _context.Inventory.FirstOrDefault(x=>x.ID == InventoryId);
+            return inventory.Oprations.Select(x => new InventoryOprationDto
             {
-                item.Product = products.FirstOrDefault(x => x.ID == search.ProductId)?.Name;
-            });
-            return Inventory;
-
+                Id = x.Id,
+                Count = x.Count,
+                CurrentCount = x.CurrentCount,
+                Description = x.Description,
+                Opration = x.Opration,
+                OprationDate = x.OprationDate.ToFarsi(),
+                OpratorId = x.OpratorId,
+                Oprator = "مدیر سیستم",
+                OrderId = x.OrderId
+            }).OrderByDescending(x=>x.Id).ToList();
         }
     }
 }

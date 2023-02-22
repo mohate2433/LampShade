@@ -1,11 +1,6 @@
 ﻿using _01_LampShadeQuery.Contract;
 using _01_LampShadeQuery.Model;
 using ShopManagement.Infrastructure;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _01_LampShadeQuery.Service
 {

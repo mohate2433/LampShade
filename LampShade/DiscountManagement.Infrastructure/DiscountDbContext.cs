@@ -2,13 +2,6 @@
 using DiscountManagement.Domain.CustomerDiscountAggregate;
 using DiscountManagement.Infrastructure.Mapping;
 using Microsoft.EntityFrameworkCore;
-using ShopManagement.Domain.DomainModels.ProductCategoryAggregates;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DiscountManagement.Infrastructure
 {

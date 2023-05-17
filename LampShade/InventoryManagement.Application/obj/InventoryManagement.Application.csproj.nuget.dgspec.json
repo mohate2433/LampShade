@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mohammad\\Desktop\\Git_LampShade\\LampShade\\InventoryManagement.Application\\InventoryManagement.Application.csproj": {}
+    "C:\\Users\\rezaei\\Desktop\\myProject\\LampShade\\InventoryManagement.Application\\InventoryManagement.Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mohammad\\Desktop\\Git_LampShade\\LampShade\\0_Framework\\0_Framework.csproj": {
+    "C:\\Users\\rezaei\\Desktop\\myProject\\LampShade\\0_Framework\\0_Framework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mohammad\\Desktop\\Git_LampShade\\LampShade\\0_Framework\\0_Framework.csproj",
+        "projectUniqueName": "C:\\Users\\rezaei\\Desktop\\myProject\\LampShade\\0_Framework\\0_Framework.csproj",
         "projectName": "0_Framework",
-        "projectPath": "C:\\Users\\Mohammad\\Desktop\\Git_LampShade\\LampShade\\0_Framework\\0_Framework.csproj",
-        "packagesPath": "C:\\Users\\Mohammad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mohammad\\Desktop\\Git_LampShade\\LampShade\\0_Framework\\obj\\",
+        "projectPath": "C:\\Users\\rezaei\\Desktop\\myProject\\LampShade\\0_Framework\\0_Framework.csproj",
+        "packagesPath": "C:\\Users\\rezaei\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rezaei\\Desktop\\myProject\\LampShade\\0_Framework\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Mohammad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rezaei\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -82,24 +82,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Mohammad\\Desktop\\Git_LampShade\\LampShade\\InventoryManagement.Application.Contracts\\InventoryManagement.Application.Contracts.csproj": {
+    "C:\\Users\\rezaei\\Desktop\\myProject\\LampShade\\InventoryManagement.Application.Contracts\\InventoryManagement.Application.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mohammad\\Desktop\\Git_LampShade\\LampShade\\InventoryManagement.Application.Contracts\\InventoryManagement.Application.Contracts.csproj",
+        "projectUniqueName": "C:\\Users\\rezaei\\Desktop\\myProject\\LampShade\\InventoryManagement.Application.Contracts\\InventoryManagement.Application.Contracts.csproj",
         "projectName": "InventoryManagement.Application.Contracts",
-        "projectPath": "C:\\Users\\Mohammad\\Desktop\\Git_LampShade\\LampShade\\InventoryManagement.Application.Contracts\\InventoryManagement.Application.Contracts.csproj",
-        "packagesPath": "C:\\Users\\Mohammad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mohammad\\Desktop\\Git_LampShade\\LampShade\\InventoryManagement.Application.Contracts\\obj\\",
+        "projectPath": "C:\\Users\\rezaei\\Desktop\\myProject\\LampShade\\InventoryManagement.Application.Contracts\\InventoryManagement.Application.Contracts.csproj",
+        "packagesPath": "C:\\Users\\rezaei\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rezaei\\Desktop\\myProject\\LampShade\\InventoryManagement.Application.Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Mohammad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rezaei\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -115,11 +115,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Mohammad\\Desktop\\Git_LampShade\\LampShade\\0_Framework\\0_Framework.csproj": {
-                "projectPath": "C:\\Users\\Mohammad\\Desktop\\Git_LampShade\\LampShade\\0_Framework\\0_Framework.csproj"
+              "C:\\Users\\rezaei\\Desktop\\myProject\\LampShade\\0_Framework\\0_Framework.csproj": {
+                "projectPath": "C:\\Users\\rezaei\\Desktop\\myProject\\LampShade\\0_Framework\\0_Framework.csproj"
               },
-              "C:\\Users\\Mohammad\\Desktop\\Git_LampShade\\LampShade\\ShopManement.Application.Contracts\\ShopManement.Application.Contracts.csproj": {
-                "projectPath": "C:\\Users\\Mohammad\\Desktop\\Git_LampShade\\LampShade\\ShopManement.Application.Contracts\\ShopManement.Application.Contracts.csproj"
+              "C:\\Users\\rezaei\\Desktop\\myProject\\LampShade\\ShopManement.Application.Contracts\\ShopManement.Application.Contracts.csproj": {
+                "projectPath": "C:\\Users\\rezaei\\Desktop\\myProject\\LampShade\\ShopManement.Application.Contracts\\ShopManement.Application.Contracts.csproj"
               }
             }
           }
@@ -149,24 +149,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Mohammad\\Desktop\\Git_LampShade\\LampShade\\InventoryManagement.Application\\InventoryManagement.Application.csproj": {
+    "C:\\Users\\rezaei\\Desktop\\myProject\\LampShade\\InventoryManagement.Application\\InventoryManagement.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mohammad\\Desktop\\Git_LampShade\\LampShade\\InventoryManagement.Application\\InventoryManagement.Application.csproj",
+        "projectUniqueName": "C:\\Users\\rezaei\\Desktop\\myProject\\LampShade\\InventoryManagement.Application\\InventoryManagement.Application.csproj",
         "projectName": "InventoryManagement.Application",
-        "projectPath": "C:\\Users\\Mohammad\\Desktop\\Git_LampShade\\LampShade\\InventoryManagement.Application\\InventoryManagement.Application.csproj",
-        "packagesPath": "C:\\Users\\Mohammad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mohammad\\Desktop\\Git_LampShade\\LampShade\\InventoryManagement.Application\\obj\\",
+        "projectPath": "C:\\Users\\rezaei\\Desktop\\myProject\\LampShade\\InventoryManagement.Application\\InventoryManagement.Application.csproj",
+        "packagesPath": "C:\\Users\\rezaei\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rezaei\\Desktop\\myProject\\LampShade\\InventoryManagement.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Mohammad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rezaei\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -182,11 +182,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Mohammad\\Desktop\\Git_LampShade\\LampShade\\InventoryManagement.Application.Contracts\\InventoryManagement.Application.Contracts.csproj": {
-                "projectPath": "C:\\Users\\Mohammad\\Desktop\\Git_LampShade\\LampShade\\InventoryManagement.Application.Contracts\\InventoryManagement.Application.Contracts.csproj"
+              "C:\\Users\\rezaei\\Desktop\\myProject\\LampShade\\InventoryManagement.Application.Contracts\\InventoryManagement.Application.Contracts.csproj": {
+                "projectPath": "C:\\Users\\rezaei\\Desktop\\myProject\\LampShade\\InventoryManagement.Application.Contracts\\InventoryManagement.Application.Contracts.csproj"
               },
-              "C:\\Users\\Mohammad\\Desktop\\Git_LampShade\\LampShade\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj": {
-                "projectPath": "C:\\Users\\Mohammad\\Desktop\\Git_LampShade\\LampShade\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj"
+              "C:\\Users\\rezaei\\Desktop\\myProject\\LampShade\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj": {
+                "projectPath": "C:\\Users\\rezaei\\Desktop\\myProject\\LampShade\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj"
               }
             }
           }
@@ -216,24 +216,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Mohammad\\Desktop\\Git_LampShade\\LampShade\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj": {
+    "C:\\Users\\rezaei\\Desktop\\myProject\\LampShade\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mohammad\\Desktop\\Git_LampShade\\LampShade\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\rezaei\\Desktop\\myProject\\LampShade\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj",
         "projectName": "InventoryManagement.Domain",
-        "projectPath": "C:\\Users\\Mohammad\\Desktop\\Git_LampShade\\LampShade\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj",
-        "packagesPath": "C:\\Users\\Mohammad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mohammad\\Desktop\\Git_LampShade\\LampShade\\InventoryManagement.Domain\\obj\\",
+        "projectPath": "C:\\Users\\rezaei\\Desktop\\myProject\\LampShade\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj",
+        "packagesPath": "C:\\Users\\rezaei\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rezaei\\Desktop\\myProject\\LampShade\\InventoryManagement.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Mohammad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rezaei\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -249,11 +249,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Mohammad\\Desktop\\Git_LampShade\\LampShade\\0_Framework\\0_Framework.csproj": {
-                "projectPath": "C:\\Users\\Mohammad\\Desktop\\Git_LampShade\\LampShade\\0_Framework\\0_Framework.csproj"
+              "C:\\Users\\rezaei\\Desktop\\myProject\\LampShade\\0_Framework\\0_Framework.csproj": {
+                "projectPath": "C:\\Users\\rezaei\\Desktop\\myProject\\LampShade\\0_Framework\\0_Framework.csproj"
               },
-              "C:\\Users\\Mohammad\\Desktop\\Git_LampShade\\LampShade\\InventoryManagement.Application.Contracts\\InventoryManagement.Application.Contracts.csproj": {
-                "projectPath": "C:\\Users\\Mohammad\\Desktop\\Git_LampShade\\LampShade\\InventoryManagement.Application.Contracts\\InventoryManagement.Application.Contracts.csproj"
+              "C:\\Users\\rezaei\\Desktop\\myProject\\LampShade\\InventoryManagement.Application.Contracts\\InventoryManagement.Application.Contracts.csproj": {
+                "projectPath": "C:\\Users\\rezaei\\Desktop\\myProject\\LampShade\\InventoryManagement.Application.Contracts\\InventoryManagement.Application.Contracts.csproj"
               }
             }
           }
@@ -283,24 +283,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Mohammad\\Desktop\\Git_LampShade\\LampShade\\ShopManement.Application.Contracts\\ShopManement.Application.Contracts.csproj": {
+    "C:\\Users\\rezaei\\Desktop\\myProject\\LampShade\\ShopManement.Application.Contracts\\ShopManement.Application.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mohammad\\Desktop\\Git_LampShade\\LampShade\\ShopManement.Application.Contracts\\ShopManement.Application.Contracts.csproj",
+        "projectUniqueName": "C:\\Users\\rezaei\\Desktop\\myProject\\LampShade\\ShopManement.Application.Contracts\\ShopManement.Application.Contracts.csproj",
         "projectName": "ShopManement.Application.Contracts",
-        "projectPath": "C:\\Users\\Mohammad\\Desktop\\Git_LampShade\\LampShade\\ShopManement.Application.Contracts\\ShopManement.Application.Contracts.csproj",
-        "packagesPath": "C:\\Users\\Mohammad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mohammad\\Desktop\\Git_LampShade\\LampShade\\ShopManement.Application.Contracts\\obj\\",
+        "projectPath": "C:\\Users\\rezaei\\Desktop\\myProject\\LampShade\\ShopManement.Application.Contracts\\ShopManement.Application.Contracts.csproj",
+        "packagesPath": "C:\\Users\\rezaei\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rezaei\\Desktop\\myProject\\LampShade\\ShopManement.Application.Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Mohammad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rezaei\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -316,8 +316,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Mohammad\\Desktop\\Git_LampShade\\LampShade\\0_Framework\\0_Framework.csproj": {
-                "projectPath": "C:\\Users\\Mohammad\\Desktop\\Git_LampShade\\LampShade\\0_Framework\\0_Framework.csproj"
+              "C:\\Users\\rezaei\\Desktop\\myProject\\LampShade\\0_Framework\\0_Framework.csproj": {
+                "projectPath": "C:\\Users\\rezaei\\Desktop\\myProject\\LampShade\\0_Framework\\0_Framework.csproj"
               }
             }
           }
@@ -347,7 +347,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
